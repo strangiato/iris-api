@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+python-dotenv = "*"
+environ-config = "*"
+kafka-python = "*"
+pandas = "*"
+scikit-learn = "1.1.2"
+
+[dev-packages]
+flake8 = "*"
+flake8-import-order = "*"
+flake8-docstrings = "*"
+flake8-builtins = "*"
+flake8-bandit = "*"
+black = "*"
+tox = "*"
+pytest = "*"
+tox-pipenv = "*"
+requests-mock = "*"
+pytest-mock = "*"
+requests = "*"
+
+[requires]
+python_version = "3.9"
